@@ -3,7 +3,7 @@ package com.creyes.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "Paciente")
+@Table(name = "paciente")
 public class Paciente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
